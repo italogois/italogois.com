@@ -1,13 +1,17 @@
-import React from "react"
+import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Header from '../components/header/header'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import ContainerCentered from '../components/container-centered'
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Header title="Página não encontrada" />
+    <SEO title="Início" />
+    <ContainerCentered>
+      <h2>Ops, essa página não existe</h2>
+    </ContainerCentered>
   </Layout>
 )
 
