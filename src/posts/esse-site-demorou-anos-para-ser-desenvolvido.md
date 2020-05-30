@@ -21,7 +21,7 @@ E com certeza aos poucos vou melhorando o código deste site, implementando nova
 
 ### O site
 
-[No repositório desse projeto](#) coloquei no readme as informações sobre o desenvolvimento do site.
+[No repositório desse projeto](https://github.com/italogois/italogois.com) coloquei no readme as informações sobre o desenvolvimento do site.
 
 ### Futuro
 
