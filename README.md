@@ -27,7 +27,7 @@ Escolhi trabalhar apenas com uma cor, e a partir desta cor fui trabalhando em um
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c69e6a3f-d2bb-406a-bb1c-cc6812c793a8/deploy-status)](https://app.netlify.com/sites/reverent-edison-5148a3/deploys)
 
 ## :thought_balloon: Vamos Conversar
 
