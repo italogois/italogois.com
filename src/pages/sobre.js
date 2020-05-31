@@ -14,7 +14,7 @@ const SecondPage = () => (
       <p>
         Sou Ítalo Góis, um desenvolvedor Front-end, nordestino que mora em
         aracaju. Apaixonado por usabilidade e acessibilidade, também me aventuro
-        na criação de interface e sou cristão.
+        na criação de interface.
       </p>
       <p>
         Comecei a desenvolver profissionalemnte como backend, mas com o tempo

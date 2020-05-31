@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <Header
       title="I ae, de boa?"
-      description="Sou um desenvolvedor Front-end que é apaixonado por usabilidade e acessibilidade, também me aventuro na criação de interface e sou cristão."
+      description="Sou um desenvolvedor Front-end que é apaixonado por usabilidade e acessibilidade, também me aventuro na criação de interface."
     />
     <SEO title="Início" />
     <ContainerCentered>
