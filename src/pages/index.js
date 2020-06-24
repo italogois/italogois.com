@@ -16,8 +16,8 @@ const SectionTitle = styled.h2`
 const IndexPage = () => (
   <Layout>
     <Header
-      title="I ae, de boa?"
-      description="Sou um desenvolvedor Front-end que é apaixonado por usabilidade e acessibilidade, também me aventuro na criação de interface."
+      title="Ítalo Góis"
+      description="front-end • ux • ui • acessibilidade na web"
     />
     <SEO title="Início" />
     <ContainerCentered>

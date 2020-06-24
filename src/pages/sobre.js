@@ -12,9 +12,8 @@ const SecondPage = () => (
     <SEO title="Sobre mim" />
     <ContainerCentered>
       <p>
-        Sou Ítalo Góis, um desenvolvedor Front-end, nordestino que mora em
-        aracaju. Apaixonado por usabilidade e acessibilidade, também me aventuro
-        na criação de interface.
+        Sou Ítalo Góis, um desenvolvedor front-end, nordestino que mora em
+        Aracaju.
       </p>
       <p>
         Comecei a desenvolver profissionalemnte como backend, mas com o tempo
