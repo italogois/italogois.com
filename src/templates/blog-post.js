@@ -18,7 +18,6 @@ const Comments = styled.div`
 
 export const PostInfo = styled.div`
   display: flex;
-  color: #987c67;
   margin-top: 0.8rem;
   margin-bottom: 2.4rem;
 
@@ -30,7 +29,6 @@ export const PostInfo = styled.div`
 export const Date = styled.div`
   display: flex;
   align-items: center;
-  font-style: italic;
   margin-right: 2.4rem;
 `
 
@@ -83,7 +81,12 @@ export const query = graphql`
         date
         featuredImage {
           childImageSharp {
-            fluid(maxWidth: 736) {
+            fluid(
+              maxWidth: 736
+              maxHeight: 280
+              quality: 70
+              jpegQuality: 100
+            ) {
               ...GatsbyImageSharpFluid
             }
           }

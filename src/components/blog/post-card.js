@@ -29,7 +29,6 @@ export const PostCard = styled.div`
 
 export const PostInfo = styled.div`
   display: flex;
-  color: #987c67;
   margin-top: 0.8rem;
 
   svg {
@@ -40,7 +39,6 @@ export const PostInfo = styled.div`
 export const Date = styled.div`
   display: flex;
   align-items: center;
-  font-style: italic;
   margin-right: 2.4rem;
 `
 
