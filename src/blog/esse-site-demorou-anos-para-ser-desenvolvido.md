@@ -1,8 +1,8 @@
 ---
-slug: '/posts/esse-site-demorou-anos-para-ser-desenvolvido'
+slug: 'esse-site-demorou-anos-para-ser-desenvolvido'
 date: '16/05/2020'
 title: 'Esse site demorou anos para ser desenvolvido'
-featuredImage: ../images/esse-site-demorou-anos-para-ser-desenvolvido.jpg
+featuredImage: ../images/esse-site-demorou-anos-para-ser-desenvolvido/featured-site-desenvolvido.jpg
 ---
 
 ### Motivação

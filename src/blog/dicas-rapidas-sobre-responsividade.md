@@ -1,8 +1,8 @@
 ---
-slug: '/posts/dicas-rapidas-sobre-responsividade'
+slug: 'dicas-rapidas-sobre-responsividade'
 date: '23/06/2020'
 title: 'Dicas rápidas sobre responsividade'
-featuredImage: ../images/dicas-rapidas-sobre-responsividade.jpg
+featuredImage: ../images/dicas-rapidas-sobre-responsividade/featured-dicas-responsividade.jpg
 ---
 
 ### Introdução
