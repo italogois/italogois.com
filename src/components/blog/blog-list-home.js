@@ -54,7 +54,7 @@ const BlogListHome = () => {
           timeToRead={node.timeToRead}
         />
       ))}
-      <Button link="blog" text="ir para o blog" align="center" />
+      <Button link="/blog/" text="ir para o blog" align="center" />
     </>
   )
 }

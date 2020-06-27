@@ -25,10 +25,10 @@ const PageNavigation = () => (
         <Link to="/">Início</Link>
       </Item>
       <Item>
-        <Link to="sobre">Sobre mim</Link>
+        <Link to="/sobre/">Sobre mim</Link>
       </Item>
       <Item>
-        <Link to="blog">Blog</Link>
+        <Link to="/blog/">Blog</Link>
       </Item>
     </Navigation>
   </>
