@@ -51,7 +51,7 @@ export default function BlogPost({ data }) {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        featuredImage={featuredImgFluid}
+        featuredImage={`https://italogois.com${featuredImgFluid.src}`}
       />
       <ContainerCentered>
         <Img fluid={featuredImgFluid} />
