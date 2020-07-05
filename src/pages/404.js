@@ -8,7 +8,7 @@ import ContainerCentered from '../components/container-centered'
 const NotFoundPage = () => (
   <Layout>
     <Header title="Página não encontrada" />
-    <SEO title="Início" />
+    <SEO title="Página não encontrada" description="Esta página não existe" />
     <ContainerCentered>
       <h2>Ops, essa página não existe</h2>
     </ContainerCentered>

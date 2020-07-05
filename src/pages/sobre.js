@@ -9,7 +9,11 @@ import ContainerCentered from '../components/container-centered'
 const SecondPage = () => (
   <Layout>
     <Header title={'Sobre mim'} />
-    <SEO title="Sobre mim" />
+    <SEO
+      title="Sobre mim"
+      description="Sou Ítalo Góis, um desenvolvedor front-end, nordestino que mora em
+        Aracaju."
+    />
     <ContainerCentered>
       <p>
         Sou Ítalo Góis, um desenvolvedor front-end, nordestino que mora em

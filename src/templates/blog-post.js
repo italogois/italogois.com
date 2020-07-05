@@ -48,7 +48,11 @@ export default function BlogPost({ data }) {
   return (
     <Layout>
       <Header title={post.frontmatter.title} />
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        featuredImage={featuredImgFluid}
+      />
       <ContainerCentered>
         <Img fluid={featuredImgFluid} />
         <PostInfo>
@@ -91,6 +95,7 @@ export const query = graphql`
             }
           }
         }
+        description
       }
       timeToRead
     }

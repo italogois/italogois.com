@@ -3,6 +3,7 @@ slug: 'dicas-rapidas-sobre-responsividade'
 date: '23/06/2020'
 title: 'Dicas rápidas sobre responsividade'
 featuredImage: ../images/dicas-rapidas-sobre-responsividade/featured-dicas-responsividade.jpg
+description: 'Entenda como o display grid e a função clamp podem te ajudar na responsividade'
 ---
 
 ### Introdução

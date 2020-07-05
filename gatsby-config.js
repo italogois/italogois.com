@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Italo Góis`,
-    description: `Esse é o site de um desenvolvedor frontend`,
+    description: `Esse é o site de um desenvolvedor front-end`,
     author: `@italogois_`,
     siteUrl: `https://www.italogois.com`,
   },

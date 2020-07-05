@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 
 import styled from 'styled-components'
 
@@ -34,7 +35,10 @@ const BlogList = ({ data, pageContext }) => {
   return (
     <Layout>
       <Header title={'Blog'} />
-      <SEO title="Blog" />
+      <SEO
+        title="Blog"
+        description="Conteúdo técnico sobre desenvolvimento e soft skills"
+      />
       <ContainerCentered>
         {posts.map(({ node }) => (
           <PostCardLayout
