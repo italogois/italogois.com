@@ -4,7 +4,7 @@ import React from 'react'
 import Header from '../components/header/header'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import ContainerCentered from '../components/container-centered'
+import Container from '../components/container'
 
 const SecondPage = () => (
   <Layout>
@@ -14,7 +14,7 @@ const SecondPage = () => (
       description="Sou Ítalo Góis, um desenvolvedor front-end, nordestino que mora em
         Aracaju."
     />
-    <ContainerCentered>
+    <Container>
       <p>
         Sou Ítalo Góis, um desenvolvedor front-end, nordestino que mora em
         Aracaju.
@@ -67,7 +67,7 @@ const SecondPage = () => (
         essa responsabilidade, de levar o conteúdo para todos os tipos de
         pessoas.
       </p>
-    </ContainerCentered>
+    </Container>
   </Layout>
 )
 

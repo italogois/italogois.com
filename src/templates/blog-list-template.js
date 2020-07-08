@@ -1,29 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import styled from 'styled-components'
-
 import Button from '../components/button'
 import Header from '../components/header/header'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import ContainerCentered from '../components/container-centered'
-import PostCardLayout from '../components/blog/post-card'
-
-const PaginationLayout = styled.div`
-  text-align: center;
-`
-
-const Navigation = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-`
-
-const CurrentPage = styled.div`
-  font-style: italic;
-  margin-bottom: 2.4rem;
-`
+import Container from '../components/container'
+import PostCard from '../components/blog/post-card'
+import { Pagination, Navigation, CurrentPage } from '../components/blog/style'
 
 const BlogList = ({ data, pageContext }) => {
   const posts = data.allMarkdownRemark.edges
@@ -39,9 +23,9 @@ const BlogList = ({ data, pageContext }) => {
         title="Blog"
         description="Conteúdo técnico sobre desenvolvimento e soft skills"
       />
-      <ContainerCentered>
+      <Container>
         {posts.map(({ node }) => (
-          <PostCardLayout
+          <PostCard
             id={node.id}
             slug={node.fields.slug}
             featuredImage={node.frontmatter.featuredImage.childImageSharp.fluid}
@@ -51,7 +35,7 @@ const BlogList = ({ data, pageContext }) => {
           />
         ))}
 
-        <PaginationLayout>
+        <Pagination>
           <CurrentPage>
             Você esta na página {currentPage} de {totalPages}
           </CurrentPage>
@@ -62,8 +46,8 @@ const BlogList = ({ data, pageContext }) => {
               <Button link={nextPage} text="Próxima" />
             </Navigation>
           )}
-        </PaginationLayout>
-      </ContainerCentered>
+        </Pagination>
+      </Container>
     </Layout>
   )
 }

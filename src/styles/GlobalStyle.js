@@ -1,5 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap'); */
+import { createGlobalStyle } from 'styled-components'
+
+export default createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  boz-sizing: border-box;
+}
 
 html {
   font-size: 16px;
@@ -102,3 +110,9 @@ sup {
 sub {
   bottom: -0.25em;
 }
+
+button {
+  border: 0;
+}
+
+`

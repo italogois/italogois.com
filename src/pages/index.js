@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Header from '../components/header/header'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import ContainerCentered from '../components/container-centered'
+import Container from '../components/container'
 import BlogListHome from '../components/blog/blog-list-home'
 
 const SectionTitle = styled.h2`
@@ -20,10 +20,10 @@ const IndexPage = () => (
       description="front-end • ux • ui • acessibilidade na web"
     />
     <SEO title="Início" />
-    <ContainerCentered>
+    <Container>
       <SectionTitle>Postagens Recentes</SectionTitle>
       <BlogListHome />
-    </ContainerCentered>
+    </Container>
   </Layout>
 )
 

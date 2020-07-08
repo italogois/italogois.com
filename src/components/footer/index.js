@@ -1,40 +1,13 @@
 import React from 'react'
 
-import styled from 'styled-components'
+import { FooterLayout, SocialNetworks, SocialNetwork } from './style'
 import { FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
 import Container from '../container'
 
-const FooterLayout = styled.footer`
-  color: #fff;
-  background-color: #ff9e66;
-  margin-top: 10rem;
-`
-
-const SocialNetworks = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: 1.6rem;
-`
-
-const SocialNetwork = styled.div`
-  margin-left: 2.2rem;
-  margin-right: 2.2rem;
-
-  a {
-    color: #feefe6;
-
-    &:hover {
-      color: #da5305;
-    }
-  }
-`
-
 const Footer = () => (
   <FooterLayout>
-    <Container>
+    <Container large={true}>
       <SocialNetworks>
         <SocialNetwork>
           <a

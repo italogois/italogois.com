@@ -1,17 +1,9 @@
 import React from 'react'
 
-import styled from 'styled-components'
+import { ContainerLayout } from './style'
 
-const ContainerLayout = styled.div`
-  margin: 0 auto;
-  max-width: 69rem;
-  padding: 1.45rem 1.0875rem;
-`
-
-const Container = ({ children }) => (
-  <>
-    <ContainerLayout>{children}</ContainerLayout>
-  </>
+const Container = ({ large, children }) => (
+  <ContainerLayout large={large}>{children}</ContainerLayout>
 )
 
 export default Container
