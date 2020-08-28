@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Dicas rápidas sobre responsividade
-description: sem descricao
+description: sem descricaoa
 date: 2020-06-23T23:15:31.860Z
 featuredImage: static/images/uploads/featured-dicas-responsividade.jpg
 rating: 0
