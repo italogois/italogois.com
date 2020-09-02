@@ -20,52 +20,22 @@ const SecondPage = () => (
         Aracaju.
       </p>
       <p>
-        Comecei a desenvolver profissionalemnte como backend, mas com o tempo
-        isso começou a não me encantar tanto, porque de certa forma eu sentia
-        falta da aproximação as pessoas, normalmente os desenvolvedores não
-        utilizariam o termo "pessoas" e sim "usuários". E tenho um bom motivo
-        para não utilizar o termo "usuários", que foi o motivo de começar a
-        migrar meus estudos e trabalhos para o Front-end.
-      </p>
-      <h3>Motivação para ser um desenvolvedor Front-end</h3>
-      <p>
-        Meu intuito com programação sempre foi ajudar e facilitar a vida das
-        pessoas que navegam em algum site ou utilizam algum produto
-        digital(sistemas, apps, etc..) e quando eu comecei a estudar as
-        tecnologias Front-end vi que eu conseguia ser mais efetivo em meus
-        objetivos, porque o Front-end é o que a pessoa ao acessar um site ou um
-        produto digital vai ter contato.
+        Comecei a desenvolver apenas por diversão criando sites e servidores de
+        jogos, e nesse tempo como levava tudo apenas por brincadeira não tinha
+        uma noção que existia um grande mundo em volta da programação.
       </p>
       <p>
-        Em conjunto com essa tecnologia que me possibilita criar interações e
-        micro interações entre a pessoa e o que ela estiver acessando, seja na
-        web ou no mobile, também posso trabalhar a experiência que a pessoa vai
-        ter ao acessar determinado conteúdo.
-      </p>
-      <h3>UX Design (Experiência de usuário)</h3>
-      <p>
-        Essa área de estudo que é conhecida como experiência de usuário, é a
-        chave que ajuda em trabalho o desenvolvimento Front-end a melhorar a
-        forma que as pessoas utilizam determinado sistema ou site
+        Com o passar do tempo acabei criando sites para empresas e comecei a me
+        dedicar nessa área também como profissão. Comecei trabalhando em
+        agências de publicidade e a alguns anos depois comecei a trabalhar na
+        Ma9, no desenvolvimento de sistemas financeiro.
       </p>
       <p>
-        É possível estudar comportamentos de pessoas para conseguir otimizar as
-        soluções, dando um melhor direcionamento ao navegar em uma página,
-        fazendo com que ela encontre as coisas mais rápido, dando uma hierarquia
-        visual para que tudo siga um determinado padrão, etc...
-      </p>
-      <p>
-        E para as empresas acaba aumentando a relação delas com os as pessoas
-        que consomem seus serviços, trazendo um maior retorno e visibilidade
-        para a empresa
-      </p>
-      <p>
-        É importante lembrar que unindo os estudos de UX Design, e
-        desenvolvimento Front-end, tambéms podemos levar conteúdo pensando em
-        acessibilidade, porque como no mundo físico tem que ter mobilidade para
-        pessoas com algum tipo de deficiência, no mundo digital também temos
-        essa responsabilidade, de levar o conteúdo para todos os tipos de
-        pessoas.
+        No meio dessa caminhada de desenvolvedor front-end, acabei me
+        aprofundando bastante ná aréa de experiência de usuário e criação de
+        interfaces, e com tudo isso junto ajuda bastante na criação de novas
+        soluções que sejam fáceis de utilizar e que acresctem algo na vida de
+        alguém.
       </p>
     </Container>
   </Layout>

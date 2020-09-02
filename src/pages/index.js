@@ -15,10 +15,7 @@ const SectionTitle = styled.h2`
 
 const IndexPage = () => (
   <Layout>
-    <Header
-      title="Ítalo Góis"
-      description="front-end • ux • ui • acessibilidade na web"
-    />
+    <Header title="Ítalo Góis" description="front-end • ux • ui" />
     <SEO title="Início" />
     <Container>
       <SectionTitle>Postagens Recentes</SectionTitle>
