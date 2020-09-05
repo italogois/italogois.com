@@ -4,41 +4,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Button from '../button'
 import PostCardLayout from './post-card'
 
-export const query = graphql`
-  query {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 3
-    ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date
-            featuredImage {
-              childImageSharp {
-                fluid(
-                  maxWidth: 736
-                  maxHeight: 280
-                  quality: 70
-                  jpegQuality: 100
-                ) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          fields {
-            slug
-          }
-          timeToRead
-        }
-      }
-    }
-  }
-`
-
 const BlogListHome = () => {
   const posts = useStaticQuery(query).allMarkdownRemark.edges
 
@@ -60,3 +25,33 @@ const BlogListHome = () => {
 }
 
 export default BlogListHome
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 736, maxHeight: 280) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          fields {
+            slug
+          }
+          timeToRead
+        }
+      }
+    }
+  }
+`

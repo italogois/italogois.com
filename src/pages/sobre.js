@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Container from '../components/container'
 
-const SecondPage = () => (
+const AboutPage = () => (
   <Layout>
     <Header title={'Sobre mim'} />
     <SEO
@@ -41,4 +41,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default AboutPage
