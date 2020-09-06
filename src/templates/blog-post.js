@@ -15,7 +15,7 @@ export default function BlogPost({ data }) {
   const post = data.markdownRemark
   const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   const disqusConfig = {
-    identifier: post.id,
+    identifier: post.slug,
     title: post.title,
   }
 
@@ -64,6 +64,9 @@ export const query = graphql`
         description
       }
       timeToRead
+      fields {
+        slug
+      }
     }
   }
 `
