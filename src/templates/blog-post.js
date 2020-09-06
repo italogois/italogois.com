@@ -15,7 +15,7 @@ export default function BlogPost({ data }) {
   const post = data.markdownRemark
   const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   const disqusConfig = {
-    identifier: post.id,
+    identifier: post.slug,
     title: post.title,
   }
 
@@ -56,12 +56,7 @@ export const query = graphql`
         date
         featuredImage {
           childImageSharp {
-            fluid(
-              maxWidth: 736
-              maxHeight: 280
-              quality: 70
-              jpegQuality: 100
-            ) {
+            fluid(maxWidth: 736, maxHeight: 280) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -69,6 +64,9 @@ export const query = graphql`
         description
       }
       timeToRead
+      fields {
+        slug
+      }
     }
   }
 `

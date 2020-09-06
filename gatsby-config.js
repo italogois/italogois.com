@@ -1,11 +1,26 @@
 module.exports = {
   siteMetadata: {
     title: `Italo Góis`,
-    description: `Esse é o site de um desenvolvedor front-end`,
+    description: `Sou Ítalo Góis, um desenvolvedor front-end, nordestino que mora em
+        Aracaju.`,
     author: `@italogois_`,
-    siteUrl: `https://www.italogois.com`,
+    siteUrl: `https://italogois.com/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/images/uploads`,
+        name: `uploads`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -15,25 +30,23 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-images`,
+            options: { maxWidth: 736 },
+          },
+          {
             resolve: `gatsby-remark-prismjs`,
           },
+          `gatsby-remark-relative-images`,
         ],
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-remark-copy-linked-files',
       options: {
-        name: `blog`,
-        path: `${__dirname}/src/blog`,
+        destinationDir: 'static/images/uploads/',
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

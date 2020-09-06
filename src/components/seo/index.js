@@ -2,6 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
 import { Helmet } from 'react-helmet'
+import italoIcon from '../../images/italo-icon.png'
 
 function SEO({ description, lang, meta, title, featuredImage }) {
   const { site } = useStaticQuery(
@@ -18,11 +19,7 @@ function SEO({ description, lang, meta, title, featuredImage }) {
     `
   )
 
-  const image =
-    featuredImage ||
-    'https://italogois.com/static/ed50b869e5925b09c0cfba408cc99200/3a9bf/featured-site-desenvolvido.jpg'
-
-  console.log('image', image)
+  const image = featuredImage || italoIcon
 
   const metaDescription = description || site.siteMetadata.description
 
