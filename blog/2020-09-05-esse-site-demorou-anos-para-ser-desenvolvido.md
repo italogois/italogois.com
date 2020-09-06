@@ -2,7 +2,7 @@
 layout: post
 title: Esse site demorou anos para ser desenvolvido
 description: Porque eu demorei para ciar meu site pessoal?
-date: 16-05-2020 12:21:24
+date: 16/05/2020
 featuredImage: /images/uploads/featured-site-desenvolvido.jpg
 tags:
   - ""
