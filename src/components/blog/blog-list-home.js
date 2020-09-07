@@ -29,7 +29,7 @@ export default BlogListHome
 export const query = graphql`
   query {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___date], order: ASC }
       limit: 3
     ) {
       edges {
