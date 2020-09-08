@@ -15,7 +15,7 @@
     "gatsby-plugin-netlify-cms": "^4.3.12",
     "gatsby-plugin-nprogress": "^2.3.10",
     "gatsby-plugin-offline": "^3.2.26",
-    "gatsby-plugin-page-creator": "^2.3.25",
+    "gatsby-plugin-page-creator": "^2.3.26",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sharp": "^2.6.31",
     "gatsby-plugin-sitemap": "^2.4.12",
