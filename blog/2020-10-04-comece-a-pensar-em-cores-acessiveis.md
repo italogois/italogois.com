@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comece a pensar em cores acessíveis
+title: Melhorar a usabilidade com cores acessíveis
 description: Cores acessíveis para melhorar a usabilidade para daltônicos.
 date: 03/10/2020
 featuredImage: /images/uploads/cores-acessiveis-1.jpg
