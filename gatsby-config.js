@@ -30,20 +30,23 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-relative-images',
+          },
+          {
             resolve: `gatsby-remark-images`,
-            options: { maxWidth: 736 },
+            options: { maxWidth: 736, linkImagesToOriginal: false },
           },
           {
             resolve: `gatsby-remark-prismjs`,
           },
-          `gatsby-remark-relative-images`,
+
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static/images/uploads/',
+            },
+          },
         ],
-      },
-    },
-    {
-      resolve: 'gatsby-remark-copy-linked-files',
-      options: {
-        destinationDir: 'static/images/uploads/',
       },
     },
     `gatsby-plugin-netlify-cms`,
