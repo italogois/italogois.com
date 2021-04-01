@@ -41,6 +41,6 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.{js, tsx,css,md}": "prettier --write"
+    "*.{js, tsx,css,md}": "prettier --write && npx eslint --fix src"
   }
 }

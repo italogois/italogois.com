@@ -5,6 +5,21 @@ import Head from 'next/head'
 export default function Meta(): JSX.Element {
   return (
     <Head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-167954928-1"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-167954928-1');
+        `
+        }}
+      ></script>
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -35,7 +50,7 @@ export default function Meta(): JSX.Element {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${SITE_NAME}.`}
+        content={`${SITE_NAME} - Desenvolvedor Front-end.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
