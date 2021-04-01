@@ -8,7 +8,7 @@ export default function Intro(): JSX.Element {
       <S.Intro>
         <Image
           src="/assets/images/italoLogo.svg"
-          alt="Picture of the author"
+          alt="Logo Italo"
           width={522}
           height={95}
         />
