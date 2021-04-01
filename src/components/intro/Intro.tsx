@@ -1,9 +1,8 @@
 import * as S from './styles'
 
 import Image from 'next/image'
-import React from 'react'
 
-export default function Intro() {
+export default function Intro(): JSX.Element {
   return (
     <>
       <S.Intro>

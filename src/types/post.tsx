@@ -10,6 +10,6 @@ export type PostFull = {
   title: string
   coverImage: string
   date: string
-  ogImage: any
+  ogImage: { url: string }
   content: string
 }

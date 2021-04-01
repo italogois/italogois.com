@@ -2,13 +2,14 @@ import * as S from './styles'
 
 import Image from 'next/image'
 import { PostCard } from 'types/post'
-import React from 'react'
+
+type PostHeaderProps = Omit<PostCard, 'slug'>
 
 export default function PostHeader({
   title,
   coverImage,
   date
-}: PostCard): JSX.Element {
+}: PostHeaderProps): JSX.Element {
   return (
     <>
       <S.TitleWrapper>

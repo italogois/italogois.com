@@ -1,12 +1,12 @@
 import 'prismjs/themes/prism-tomorrow.css'
 
+import { AppProps } from 'next/app'
 import GlobalStyle from 'styles/global.styles'
 import Head from 'next/head'
-import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import theme from 'styles/theme'
 
-export default function MyApp({ Component, pageProps }: any): JSX.Element {
+export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <Head>

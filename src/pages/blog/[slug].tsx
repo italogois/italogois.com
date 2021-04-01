@@ -6,7 +6,6 @@ import Layout from '../../components/layout/Layout'
 import PostBody from 'components/post/postBody/PostBody'
 import { PostFull } from 'types/post'
 import PostHeader from 'components/post/postHeader/PostHeader'
-import React from 'react'
 import { SITE_NAME } from '../../lib/constants'
 import SmallContainer from 'components/smallContainer'
 import markdownToHtml from '../../lib/markdownToHtml'
@@ -14,6 +13,10 @@ import { useRouter } from 'next/router'
 
 type PostProps = {
   post: PostFull
+}
+
+type ParamsStaticProps = {
+  params: { slug: string }
 }
 
 export default function Post({ post }: PostProps): JSX.Element {
@@ -50,7 +53,8 @@ export default function Post({ post }: PostProps): JSX.Element {
   )
 }
 
-export async function getStaticProps({ params }: any) {
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+export async function getStaticProps({ params }: ParamsStaticProps) {
   const fields = [
     'title',
     'date',
@@ -60,6 +64,7 @@ export async function getStaticProps({ params }: any) {
     'ogImage',
     'coverImage'
   ]
+
   const post = getPostBySlug(params.slug, fields)
   const content = await markdownToHtml(post.content || '')
 
@@ -73,6 +78,7 @@ export async function getStaticProps({ params }: any) {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export async function getStaticPaths() {
   const posts = getAllPosts(['slug'])
 

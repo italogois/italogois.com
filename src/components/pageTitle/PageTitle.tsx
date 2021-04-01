@@ -5,10 +5,10 @@ type PageTitleProps = {
   children: React.ReactNode
 }
 
-export default function PageTitle({ children }: PageTitleProps) {
-	return (
-		<>
-			<S.PageTitle>{children}</S.PageTitle>
-		</>
-	)
+export default function PageTitle({ children }: PageTitleProps): JSX.Element {
+  return (
+    <>
+      <S.PageTitle>{children}</S.PageTitle>
+    </>
+  )
 }
