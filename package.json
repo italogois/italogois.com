@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
-    "date-fns": "2.16.1",
+    "date-fns": "2.19.0",
     "gray-matter": "4.0.2",
     "next": "latest",
     "prismjs": "^1.23.0",
