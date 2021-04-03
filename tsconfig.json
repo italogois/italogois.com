@@ -15,6 +15,24 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/styles/global.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/styles/global.js",
+    "src/components/smallContainer/styles.js",
+    "src/components/post/postHeader/styles.js",
+    "src/components/pageTitle/styles.js",
+    "src/components/layout/styles.js",
+    "src/components/intro/styles.js",
+    "src/components/header/navigation/styles.js",
+    "src/components/footer/styles.js",
+    "src/components/container/styles.js",
+    "src/components/blog/postPreview/styles.js",
+    "src/components/blog/home/styles.js",
+    "src/components/blog/feed/styles.js",
+    "src/styles/theme.js",
+    "src/styles/global.styles.js"
+  ],
   "exclude": ["node_modules"]
 }

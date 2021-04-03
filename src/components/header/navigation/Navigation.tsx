@@ -3,7 +3,7 @@ import * as S from './styles'
 import Link from 'next/link'
 import React from 'react'
 
-export default function Navigation(): JSX.Element {
+export default function Navigation() {
   type Menu = {
     name: string
     uri: string

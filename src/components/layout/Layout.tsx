@@ -14,7 +14,7 @@ type LayoutProps = {
 const prism = require('prismjs')
 require('prismjs/components/prism-python')
 
-export default function Layout({ children }: LayoutProps): JSX.Element {
+export default function Layout({ children }: LayoutProps) {
   useEffect(() => {
     prism.highlightAll()
   }, [])

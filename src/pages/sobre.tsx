@@ -5,7 +5,7 @@ import React from 'react'
 import { SITE_NAME } from 'lib/constants'
 import SmallContainer from 'components/smallContainer'
 
-export default function About(): JSX.Element {
+export default function About() {
   return (
     <>
       <Layout>

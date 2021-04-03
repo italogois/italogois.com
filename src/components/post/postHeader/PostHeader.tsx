@@ -10,7 +10,7 @@ export default function PostHeader({
   title,
   coverImage,
   date
-}: PostHeaderProps): JSX.Element {
+}: PostHeaderProps) {
   return (
     <>
       <S.TitleWrapper>

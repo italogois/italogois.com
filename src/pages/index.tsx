@@ -10,7 +10,7 @@ type IndexProps = {
   latestPosts: PostCard[]
 }
 
-export default function Index({ latestPosts }: IndexProps): JSX.Element {
+export default function Index({ latestPosts }: IndexProps) {
   return (
     <>
       <Layout>

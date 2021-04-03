@@ -12,7 +12,7 @@ type BlogProps = {
   allPosts: PostCard[]
 }
 
-export default function Blog({ allPosts }: BlogProps): JSX.Element {
+export default function Blog({ allPosts }: BlogProps) {
   return (
     <>
       <Layout>

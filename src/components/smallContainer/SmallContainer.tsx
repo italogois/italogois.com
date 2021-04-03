@@ -6,9 +6,7 @@ type ContainerProps = {
   children: React.ReactNode
 }
 
-export default function SmallContainer({
-  children
-}: ContainerProps): JSX.Element {
+export default function SmallContainer({ children }: ContainerProps) {
   return (
     <>
       <S.Container>{children}</S.Container>

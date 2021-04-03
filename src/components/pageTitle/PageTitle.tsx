@@ -6,7 +6,7 @@ type PageTitleProps = {
   children: React.ReactNode
 }
 
-export default function PageTitle({ children }: PageTitleProps): JSX.Element {
+export default function PageTitle({ children }: PageTitleProps) {
   return (
     <>
       <S.PageTitle>{children}</S.PageTitle>

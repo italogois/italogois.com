@@ -10,7 +10,7 @@ export default function PostPreview({
   coverImage,
   date,
   slug
-}: PostCard): JSX.Element {
+}: PostCard) {
   return (
     <div>
       <div>

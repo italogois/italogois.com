@@ -8,7 +8,7 @@ type BlogHomeProps = {
   posts: PostCard[]
 }
 
-export default function BlogHome({ posts }: BlogHomeProps): JSX.Element {
+export default function BlogHome({ posts }: BlogHomeProps) {
   return (
     <>
       <S.Title>Postagens Recentes</S.Title>

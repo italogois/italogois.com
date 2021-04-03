@@ -6,7 +6,7 @@ import Container from '../container'
 import { IconBaseProps } from 'react-icons/lib'
 import React from 'react'
 
-export default function Footer(): JSX.Element {
+export default function Footer() {
   type SocialNetwork = {
     name: string
     uri: string

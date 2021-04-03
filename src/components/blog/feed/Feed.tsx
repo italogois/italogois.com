@@ -8,7 +8,7 @@ type FeedProps = {
   posts: PostCard[]
 }
 
-export default function Feed({ posts }: FeedProps): JSX.Element {
+export default function Feed({ posts }: FeedProps) {
   return (
     <S.Feed>
       {posts.map((post: PostCard) => (
