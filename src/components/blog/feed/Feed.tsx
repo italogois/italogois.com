@@ -2,6 +2,7 @@ import * as S from './styles'
 
 import { PostCard } from 'types/post'
 import PostPreview from '../postPreview/PostPreview'
+import React from 'react'
 
 type FeedProps = {
   posts: PostCard[]

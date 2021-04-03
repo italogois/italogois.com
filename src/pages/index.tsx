@@ -3,6 +3,7 @@ import Container from 'components/container'
 import Intro from '../components/intro/Intro'
 import Layout from '../components/layout/Layout'
 import { PostCard } from 'types/post'
+import React from 'react'
 import { getAllPosts } from '../lib/api'
 
 type IndexProps = {

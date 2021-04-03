@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Layout from '../components/layout/Layout'
 import PageTitle from 'components/pageTitle'
 import { PostCard } from 'types/post'
+import React from 'react'
 import { SITE_NAME } from 'lib/constants'
 import { getAllPosts } from '../lib/api'
 

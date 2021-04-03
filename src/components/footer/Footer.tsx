@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
 import Container from '../container'
 import { IconBaseProps } from 'react-icons/lib'
+import React from 'react'
 
 export default function Footer(): JSX.Element {
   type SocialNetwork = {

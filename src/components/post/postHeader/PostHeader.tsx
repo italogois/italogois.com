@@ -2,6 +2,7 @@ import * as S from './styles'
 
 import Image from 'next/image'
 import { PostCard } from 'types/post'
+import React from 'react'
 
 type PostHeaderProps = Omit<PostCard, 'slug'>
 

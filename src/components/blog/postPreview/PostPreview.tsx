@@ -3,6 +3,7 @@ import * as S from './styles'
 import Image from 'next/image'
 import Link from 'next/link'
 import { PostCard } from 'types/post'
+import React from 'react'
 
 export default function PostPreview({
   title,
