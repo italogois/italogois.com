@@ -17,7 +17,13 @@ export default function PostHeader({
         <h1>{title}</h1>
         <span>{date}</span>
         <S.ImageWrapper>
-          <Image title={title} src={coverImage} height={500} width={1340} />
+          <Image
+            title={title}
+            src={coverImage}
+            objectFit={'cover'}
+            height={500}
+            width={1340}
+          />
         </S.ImageWrapper>
       </S.TitleWrapper>
     </>

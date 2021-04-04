@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Nav = styled.nav`
   display: flex;
   justify-content: center;
-  gap: 13rem;
+  gap: clamp(3.7rem, 10vw, 13rem);
   padding: ${props => props.theme.spacings.xsmall} 0;
 
   a {

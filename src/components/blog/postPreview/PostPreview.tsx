@@ -12,29 +12,28 @@ export default function PostPreview({
   slug
 }: PostCard) {
   return (
-    <div>
+    <>
       <div>
         <Link as={`/blog/${slug}`} href="/blog/[slug]">
           <a>
             <Image
               title={title}
               src={coverImage}
-              height={350}
-              width={900}
-              layout={'intrinsic'}
               objectFit={'cover'}
+              height={300}
+              width={700}
             />
           </a>
         </Link>
+        <S.PostTitle>
+          <Link as={`/blog/${slug}`} href="/blog/[slug]">
+            <a>{title}</a>
+          </Link>
+        </S.PostTitle>
+        <div>
+          <S.Date>{date}</S.Date>
+        </div>
       </div>
-      <S.PostTitle>
-        <Link as={`/blog/${slug}`} href="/blog/[slug]">
-          <a>{title}</a>
-        </Link>
-      </S.PostTitle>
-      <div>
-        <S.Date>{date}</S.Date>
-      </div>
-    </div>
+    </>
   )
 }

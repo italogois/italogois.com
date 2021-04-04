@@ -1,7 +1,7 @@
 export default {
   grid: {
     container: '87rem',
-    smallContainer: '54rem',
+    smallContainer: '47rem',
     gutter: '3.2rem'
   },
   border: {
@@ -12,7 +12,7 @@ export default {
     openSans: "'Open Sans', sans-serif",
     bold: 600,
     sizes: {
-      base: '16px',
+      base: '18px',
       xxsmall: '0.8rem',
       xsmall: '1rem',
       small: '1.25rem',
