@@ -3,13 +3,13 @@ import * as S from './styles'
 import React from 'react'
 
 type PageTitleProps = {
-  children: React.ReactNode
+  title: string
 }
 
-export default function PageTitle({ children }: PageTitleProps) {
+export default function PageTitle({ title }: PageTitleProps) {
   return (
     <>
-      <S.PageTitle>{children}</S.PageTitle>
+      <S.PageTitle>{title}</S.PageTitle>
     </>
   )
 }

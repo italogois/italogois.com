@@ -20,7 +20,7 @@ export default function Blog({ allPosts }: BlogProps) {
           <Head>
             <title>Blog - {SITE_NAME}</title>
           </Head>
-          <PageTitle>Blog</PageTitle>
+          <PageTitle title="Blog" />
 
           <Feed posts={allPosts} />
         </Container>

@@ -29,7 +29,9 @@ export default function Navigation() {
       <S.Nav>
         {menu.map(menuItem => (
           <Link key={menuItem.name} href={menuItem.uri}>
-            <a>{menuItem.name}</a>
+            <a title={menuItem.name} role="link">
+              {menuItem.name}
+            </a>
           </Link>
         ))}
       </S.Nav>
