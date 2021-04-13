@@ -13,7 +13,7 @@ export default function About() {
           <Head>
             <title>Sobre - {SITE_NAME}</title>
           </Head>
-          <PageTitle>Sobre</PageTitle>
+          <PageTitle title="Sobre" />
           <article>
             <p>Sou Ítalo Góis, um desenvolvedor front-end, nordestino.</p>
             <p>

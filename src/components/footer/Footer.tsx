@@ -42,6 +42,7 @@ export default function Footer() {
               href={social.uri}
               title={social.name}
               rel="noopener"
+              role="link"
             >
               {social.icon}
             </a>
