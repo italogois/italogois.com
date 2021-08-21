@@ -23,17 +23,13 @@ export default function About() {
               volta da programação.
             </p>
             <p>
-              Com o passar do tempo acabei criando sites para empresas e comecei
-              a me dedicar nessa área também como profissão. Comecei trabalhando
-              em agências de publicidade e a alguns anos depois comecei a
-              trabalhar na Ma9, no desenvolvimento de sistemas financeiro.
+              Na área de desenvolvimento primeiramente atuei em agências de
+              publicidade, onde fazia um pouco de tudo, porém acabei gostando do
+              mundo front-end e decidi me aprofundar nessa área.
             </p>
             <p>
-              No meio dessa caminhada de desenvolvedor front-end, acabei me
-              aprofundando bastante ná aréa de experiência de usuário e criação
-              de interfaces, e com tudo isso junto ajuda bastante na criação de
-              novas soluções que sejam fáceis de utilizar e que acresctem algo
-              na vida de alguém.
+              No meio dessa caminhada de dev front-end gostei de aprender sobre
+              experiência de usuário que também sou um grande entusiasta;
             </p>
           </article>
         </SmallContainer>
