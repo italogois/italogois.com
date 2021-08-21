@@ -65,7 +65,6 @@ const GlobalStyle = createGlobalStyle`
     }
 
     article p {
-      font-family: ${theme.font.lusitana};
       line-height: ${theme.spacings.xsmall};
       margin-bottom: ${theme.spacings.xsmall};
     }
@@ -73,7 +72,6 @@ const GlobalStyle = createGlobalStyle`
     article ul {
       margin-left: ${theme.spacings.small};
       margin-bottom: ${theme.spacings.xsmall};
-      font-family: ${theme.font.lusitana};
     }
 
     article img {

@@ -11,12 +11,22 @@ export const Nav = styled.nav`
     text-decoration: none;
     border-bottom: 0 solid transparent;
     padding-bottom: 0.5rem;
+    position: relative;
     transition: all 200ms ease-in;
 
     &:hover {
       color: ${props => props.theme.colors.primary};
-      border-bottom: 0.3rem solid ${props => props.theme.colors.primary};
       transition: all 200ms ease-out;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 0.1rem;
+        width: 100%;
+        background-color: ${props => props.theme.colors.primary};
+      }
     }
   }
 `

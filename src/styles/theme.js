@@ -8,8 +8,7 @@ export default {
     radius: '0.4rem'
   },
   font: {
-    lusitana: "'Lusitana', serif",
-    openSans: "'Open Sans', sans-serif",
+    openSans: '\'Open Sans\', sans-serif',
     bold: 600,
     sizes: {
       base: '18px',
