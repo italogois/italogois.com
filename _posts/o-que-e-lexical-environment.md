@@ -2,7 +2,8 @@
 layout: post
 title: O que é Lexical Environment
 description:
-date: 31/08/2021
+date: '2021-08-31'
+slug: 'o-que-e-lexical-environment'
 coverImage: /assets/blog/javascript-entendendo-lexical-environment.jpg
 ogImage:
   url: '/assets/blog/javascript-entendendo-lexical-environment.jpg'

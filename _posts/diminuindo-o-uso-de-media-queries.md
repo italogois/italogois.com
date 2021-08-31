@@ -2,7 +2,8 @@
 layout: post
 title: Diminuindo o uso de media queries
 description: Conheça funcionalidades para diminuir suas as media queries
-date: 07/09/2020
+slug: 'diminuindo-o-uso-de-media-queries'
+date: '2020-09-07'
 coverImage: /assets/blog/featured-dicas-responsividade.jpg
 ogImage:
   url: '/assets/blog/featured-dicas-responsividade.jpg'

@@ -2,7 +2,8 @@
 layout: post
 title: Melhorar a usabilidade com cores acessíveis
 description: Cores acessíveis para melhorar a usabilidade para daltônicos.
-date: 03/10/2020
+date: '2020-10-03'
+slug: 'melhorar-a-usabilidade-com-cores-acessiveis'
 coverImage: /assets/blog/cores-acessiveis-1.jpg
 ogImage:
   url: '/assets/blog/cores-acessiveis-1.jpg'

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { PostCard } from 'types/post'
 import React from 'react'
+import { formatDate } from 'utils/dateFormater'
 
 export default function PostPreview({
   title,
@@ -31,7 +32,7 @@ export default function PostPreview({
           </Link>
         </S.PostTitle>
         <div>
-          <S.Date>{date}</S.Date>
+          <S.Date>{formatDate(date)}</S.Date>
         </div>
       </div>
     </>
