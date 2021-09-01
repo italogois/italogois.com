@@ -36,9 +36,9 @@ export default function Post({ post }: PostProps) {
             <article>
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {SITE_NAME}
+                  {post.title} | {SITE_NAME}
                 </title>
-                <meta property="og:image" content={post.ogImage.url} />
+                <meta property="og:image" content={post.coverImage} />
               </Head>
               <PostHeader
                 title={post.title}
